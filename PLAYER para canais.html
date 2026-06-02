@@ -29,7 +29,7 @@
         data-setup="{}">
         
         <!-- REEMPLAZA ESTE LINK POR TU ENLACE .M3U8 -->
-        <source src="http://chefexpress.xyz:80/live/Marcelotkd/Ara20304050/1941.m3u8" type="application/x-mpegURL">
+        <source src="https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/playlist.m3u8" type="application/x-mpegURL">
         
         <p class="vjs-no-js">
             Para ver este video, por favor activa JavaScript o usa un navegador compatible.
