@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -29,7 +29,7 @@
         data-setup="{}">
         
         <!-- REEMPLAZA ESTE LINK POR TU ENLACE .M3U8 -->
-        <source src="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" type="application/x-mpegURL">
+        <source src="http://shazamparceiros.com/movie/341766433/494834481/261261.mp4" type="application/x-mpegURL">
         
         <p class="vjs-no-js">
             Para ver este video, por favor activa JavaScript o usa un navegador compatible.
