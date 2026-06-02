@@ -1,1 +1,44 @@
-# PLAYER-BRAZUKA
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor IPTV Live</title>
+    
+    <!-- Estilos oficiales de Video.js -->
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+    
+    <style>
+        /* Contenedor responsivo para que el reproductor se adapte bien */
+        .video-container {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="video-container">
+    <video
+        id="my-video"
+        class="video-js vjs-default-skin vjs-big-play-centered"
+        controls
+        preload="auto"
+        width="780"
+        height="420"
+        data-setup="{}">
+        
+        <!-- REEMPLAZA ESTE LINK POR TU ENLACE .M3U8 -->
+        <source src="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" type="application/x-mpegURL">
+        
+        <p class="vjs-no-js">
+            Para ver este video, por favor activa JavaScript o usa un navegador compatible.
+        </p>
+    </video>
+</div>
+
+<!-- Scripts oficiales de Video.js -->
+<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+
+</body>
+</html>
